@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en primera App debe mostrar <PrimerApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola desde index!
+    !
+  </h1>
+  <p />
+</Fragment>
+`;
+
+exports[`Pruebas en primera App debe mostrar <PrimeraApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola desde index!
+    !
+  </h1>
+  <p />
+</Fragment>
+`;
+
+exports[`Pruebas en primera App debe mostrar el subtitulo enviado por props: Subtitulo desde index 1`] = `"Subtitulo desde index"`;

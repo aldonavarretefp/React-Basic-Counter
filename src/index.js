@@ -10,5 +10,5 @@ console.log("Hola mundo");
 
 const divRoot = document.querySelector('#root');
 
-// ReactDOM.render(<PrimeraApp saludo="{2133}" />,divRoot);
+// ReactDOM.render(<PrimeraApp saludo="Hola desde index" />,divRoot);
 ReactDOM.render(<CounterApp/>,divRoot);

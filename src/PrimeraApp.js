@@ -2,7 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-const PrimeraApp = ( {saludo,otra = "No hay 'otra'"}) => {
+const PrimeraApp = ( {saludo,subtitulo = "No hay 'otra'"}) => {
 
     const saludoVar = "Hola mundo const"
     const isActive = false;
@@ -16,24 +16,25 @@ const PrimeraApp = ( {saludo,otra = "No hay 'otra'"}) => {
     // }
     return (
         <>
-            <h1>
-                Hola Mundo
-            </h1>
-            <p>{saludoVar}</p>
-            <p>Hola mundo HTML</p>
+            {/* <h1> */}
+                {/* Hola Mundo */}
+            {/* </h1> */}
+            {/* <p>{saludoVar}</p> */}
+            {/* <p>Hola mundo HTML</p> */}
             {
                 isActive && 
                 <h2>Active</h2>
             }
-            <h1>{numeros}</h1>
+            {/* <h1>{numeros}</h1> */}
             {/* {numeros.map(
                 (el) =>(
                     <i> {el} </i>
                 )
             )} */}
-            <pre>{JSON.stringify(objeto,null,3)}</pre>
-            <h1>{saludo}</h1>
-            <h1>{otra }</h1>
+            {/* <pre>{JSON.stringify(objeto,null,3)}</pre> */}
+            <h1>{saludo}!</h1>
+            <p>{subtitulo}</p>
+            {/* <h1>{otra }</h1> */}
             
         </>
     );
